@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+  namespace: product-app
+data:
+  DB_HOST: "postgres-db"
+  DB_PORT: "5432"
+  DB_NAME: "products-db"

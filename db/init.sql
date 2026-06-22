@@ -1,0 +1,15 @@
+
+CREATE TABLE IF NOT EXISTS products (
+    id       BIGSERIAL PRIMARY KEY,
+    name     VARCHAR(255) NOT NULL,
+    price    INTEGER NOT NULL,
+    quantity INTEGER NOT NULL
+);
+
+INSERT INTO products (name, price, quantity) VALUES
+    ('Wireless Mouse',       20,  150),
+    ('Mechanical Keyboard', 30,   75),
+    ('USB-C Hub',            40,  200),
+    ('HDMI Cable 2m',         10,  50),
+    ('Laptop Stand',         50,   60),
+    ('Webcam 1080p',         60,   90);
