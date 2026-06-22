@@ -240,7 +240,7 @@ Each resource choice balances assignment requirements, operational correctness, 
 
 | Item | URL |
 |------|-----|
-| Source code | https://github.com/gauravdwivedi/eks-kubernetes-assignment |
+| Source code | https://github.com/GDCREATION/eks-kubernetes-assignment |
 | Docker image | https://hub.docker.com/r/gaurav021997/product-api |
 | Live API (list products) | http://k8s-producta-producta-48c0ee699b-1380945497.us-east-1.elb.amazonaws.com/api/products |
 

@@ -5,7 +5,7 @@ This project deploys a Spring Boot product API on AWS EKS. The API talks to a Po
 ## Links
 
 **Source code**  
-https://github.com/gauravdwivedi/eks-kubernetes-assignment
+https://github.com/GDCREATION/eks-kubernetes-assignment
 
 **Docker image**  
 https://hub.docker.com/r/gaurav021997/product-api
