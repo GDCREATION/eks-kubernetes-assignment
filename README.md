@@ -10,9 +10,7 @@ https://github.com/GDCREATION/eks-kubernetes-assignment
 **Docker image**  
 https://hub.docker.com/r/gaurav021997/product-api
 
-**Live API — view product records**  
+**Live API while demo run — view product records**  
 http://k8s-producta-producta-48c0ee699b-1380945497.us-east-1.elb.amazonaws.com/api/products
 
-Open the API link above in a browser to see the product records stored in the backend database. You can also fetch a single record at `/api/products/{id}` or check service health at `/api/health`.
-
-For step-by-step setup, local testing, EKS deployment, and tear-down instructions, see [SETUP.md](./SETUP.md).
+The cluster has been stopped, re-running the cluster and the cluster would change the load balancer ingress url as current url would be now invalid. Run `kubectl get ingress -n product-app` and update the URL accordingly.
