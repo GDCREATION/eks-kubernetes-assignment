@@ -13,4 +13,7 @@ https://hub.docker.com/r/gaurav021997/product-api
 **Live API while demo run — view product records**  
 http://k8s-producta-producta-48c0ee699b-1380945497.us-east-1.elb.amazonaws.com/api/products
 
+**Video Link for demonstration**
+https://drive.google.com/drive/folders/1HFq2cEOcaCxGJR-0ij9FJ3zZlDkhggFY?usp=sharing
+
 The cluster has been stopped, re-running the cluster and the cluster would change the load balancer ingress url as current url would be now invalid. Run `kubectl get ingress -n product-app` and update the URL accordingly.
